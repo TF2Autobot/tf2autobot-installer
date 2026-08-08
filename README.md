@@ -13,7 +13,7 @@ This installer automatically installs the required dependencies, downloads TF2Au
 Run the following command in PowerShell:
 
 ```powershell
-irm https://raw.githubusercontent.com/HavishH/tf2autobot-installer/main/installer-windows.ps1 | iex
+irm https://raw.githubusercontent.com/TF2Autobot/tf2autobot-installer/main/installer-windows.ps1 | iex
 ```
 
 ### Linux
@@ -23,5 +23,5 @@ Supports Debian/Ubuntu, Fedora-based, and Arch-based distros.
 Run the following command in a terminal:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/HavishH/tf2autobot-installer/main/installer-linux.sh | bash
+curl -fsSL https://raw.githubusercontent.com/TF2Autobot/tf2autobot-installer/main/installer-linux.sh | bash
 ```
