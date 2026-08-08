@@ -1,3 +1,5 @@
+Maintainer: @HavishH
+
 # TF2Autobot Installer
 
 A one-command installer for TF2Autobot.
