@@ -18,7 +18,7 @@ if (-not $principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administra
         )
     }
     else {
-        $url = "https://raw.githubusercontent.com/HavishH/tf2autobot-installer/main/installer-windows.ps1"
+        $url = "https://raw.githubusercontent.com/TF2Autobot/tf2autobot-installer/main/installer-windows.ps1"
         $temp = Join-Path $env:TEMP "installer-windows.ps1"
 
         Invoke-WebRequest $url -OutFile $temp
