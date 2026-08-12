@@ -13,7 +13,7 @@ This installer automatically installs the required dependencies, downloads TF2Au
 Run the following command in PowerShell:
 
 ```powershell
-irm https://raw.githubusercontent.com/TF2Autobot/tf2autobot-installer/main/installer-windows.ps1 | iex
+powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/TF2Autobot/tf2autobot-installer/main/installer-windows.ps1 | iex"
 ```
 
 ### Linux
